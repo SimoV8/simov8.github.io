@@ -1,0 +1,29 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Vuotto.Tech"
+theme = "personal-web"
+enableEmoji=true
+enableRobotsTXT=true
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
+[params.intro]
+  main = "Simone Vuotto"
+  sub = "Software Engineer, Phd Student"
+
+[params.sidebar]
+  backgroundImage = '/images/banner.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
+  gradientOverlay = 'rgba(0,0,0,1),rgba(0,0,0,0.1)' # default: rgba(0,0,0,0.4),rgba(0,0,0,0.4)
+  logo = "/images/vuotto.jpg" # - default "/images/edna-west.jpg"
+
+[params.social]
+  github = "https://github.com/SimoV8"
+  twitter = "https://twitter.com/simo_v8"
+  linkedin = "https://www.linkedin.com/in/svuotto/"
+
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
