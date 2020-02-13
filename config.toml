@@ -1,7 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "http://vuotto.tech/"
 languageCode = "en-us"
-title = "Vuotto.Tech"
+title = "Simone Vuotto 2020"
 theme = "personal-web"
+copyright="© Simone Vuotto"
+googleAnalytics = ""
 enableEmoji=true
 enableRobotsTXT=true
 pygmentsUseClasses=true
