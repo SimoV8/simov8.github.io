@@ -1,6 +1,7 @@
-baseURL = "http://vuotto.tech/"
+baseURL = "https://simov8.github.io/"
+publishDir = "docs"
 languageCode = "en-us"
-title = "Simone Vuotto 2020"
+title = "Simone Vuotto 2021"
 theme = "personal-web"
 copyright="© Simone Vuotto"
 googleAnalytics = ""
@@ -11,7 +12,7 @@ pygmentsCodeFences=true
 
 [params.intro]
   main = "Simone Vuotto"
-  sub = "Software Engineer, Phd Student"
+  sub = "Software Engineer, Phd in Computer Science and Systems Engineering"
 
 [params.sidebar]
   backgroundImage = '/images/banner.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
