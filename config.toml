@@ -12,7 +12,7 @@ pygmentsCodeFences=true
 
 [params.intro]
   main = "Simone Vuotto"
-  sub = "Software Engineer, Phd in Computer Science and Systems Engineering"
+  sub = "Software Engineer,   Phd in Computer Science and Systems Engineering"
 
 [params.sidebar]
   backgroundImage = '/images/banner.jpg' # header background image - default "/images/default_sidebar.jpg" - Photo by Tim Marshall on Unsplash
@@ -25,8 +25,18 @@ pygmentsCodeFences=true
   linkedin = "https://www.linkedin.com/in/svuotto/"
 
 
+[menu]
+
 [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
+    weight = 1
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  title = "Blog section"
+  url = "/blog/"
+  weight = 2
+
